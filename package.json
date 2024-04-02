@@ -1,0 +1,28 @@
+{
+    "$schema": "./@types/schema/package/index.json",
+    "package_version": 2,
+    "name": "scf",
+    "version": "1.0.0",
+    "author": "zfkun",
+    "editor": ">=3.8.2",
+    "scripts": {
+        "preinstall": "node ./scripts/preinstall.js",
+        "build": "tsc",
+        "watch": "tsc -w"
+    },
+    "description": "i18n:scf.description",
+    "main": "./dist/main.js",
+    "devDependencies": {
+        "@cocos/creator-types": "^3.8.2",
+        "@types/node": "^18.17.1",
+        "typescript": "^5.4.3"
+    },
+    "contributions": {
+        "asset-db": {
+            "mount": {
+                "path": "./assets",
+                "readonly": true
+            }
+        }
+    }
+}
