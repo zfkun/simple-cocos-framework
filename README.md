@@ -1,4 +1,4 @@
-# Project Title
+# Simple Cocos Framework
 
 just a simple framework for cocos creator
 

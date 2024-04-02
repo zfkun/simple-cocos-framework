@@ -1,4 +1,4 @@
-# 项目简介
+# Simple Cocos Framework
 
 一个简单的 cocos creator 框架
 
